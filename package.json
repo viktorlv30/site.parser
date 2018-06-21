@@ -1,0 +1,27 @@
+{
+    "name": "site.parser",
+    "version": "0.0.1",
+    "description": "site's parser on nodejs",
+    "main": "dist/main.js",
+    "scripts": {
+        "start": "node dist/main",
+        "watch": "tsc --watch --project .",
+        "build": "tsc --project .",
+        "test": "test"
+    },
+    "author": "v.litvak",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.3",
+        "request": "^2.87.0",
+        "x-ray": "^2.3.2",
+        "source-map-support": "^0.5.6"
+    },
+    "devDependencies": {
+        "@types/express": "^4.16.0",
+        "@types/request": "^2.47.1",
+        "@types/x-ray": "^2.3.1",
+        "typescript": "^2.9.2",
+        "@types/source-map-support": "^0.4.0"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "x-ray",
+            "express"
+        ],
+        "module": "commonjs",
+        "target": "es2017",
+        "inlineSourceMap": true,
+        "declaration": false,
+        "outDir": "dist",
+        "removeComments": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "watch": false,
+        "newLine": "LF"
+    },
+    "include": [
+        "src/*.ts"
+    ],
+    "exclude": [
+        "./node_modules"
+    ]
+}

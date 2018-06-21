@@ -1,0 +1,15 @@
+#editor
+.vscode/
+
+#node
+node_modules/
+
+#npm
+package-lock*
+
+#project
+results/*
+dist/
+
+#exception to the rule
+!results/.keep
